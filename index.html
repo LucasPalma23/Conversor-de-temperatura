@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+  </head>
+  <body>
+    <h1>Conversor de Temperatura</h1>
+
+    Digite a temperatura base: <input type="number" name="valor" id="valor" />
+    <br />
+
+    Base:
+    <select name="temp1" id="temp1">
+      <option selected disabled value="">Selecione</option>
+      <option value="op1">Celsius</option>
+      <option value="op2">Kelvin</option>
+      <option value="op3">Fahrenheit</option>
+    </select>
+
+    Conversor:
+    <select name="temp2" id="temp2">
+      <option selected disabled value="">Selecione</option>
+      <option value="ops1">Celsius</option>
+      <option value="ops2">Kelvin</option>
+      <option value="ops3">Fahrenheit</option>
+    </select>
+    <br />
+
+    <input type="button" value="Converter" onclick="converter()" />
+
+    <div class="campo"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
